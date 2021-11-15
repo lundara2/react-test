@@ -1,16 +1,16 @@
-// pages
-import {Home} from './Pages'
-
-// Components
+import { BrowserRouter as Router } from 'react-router-dom';
 import { Header, Footer } from './Components';
+import RoutesPage from './Services/Routes';
 
 export default function App() {
   return (
-    <div className="container">
-      <Header/>
-        <Home/>
-      <Footer/>
-    </div>
+    <Router>
+      <div className="container">
+        <Header />
+        <RoutesPage />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

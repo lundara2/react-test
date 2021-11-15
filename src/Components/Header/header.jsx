@@ -4,20 +4,20 @@ import User from '../../Assets/images/user.png'
 import './header.scss'
 
 export default function Header() {
-    return(
+    return (
         <div>
             <div className="header">
                 <div className="content-header">
-        
+
                     <div className="header__brand flex-fill">
                         <a href="#">
-                            <img src={Logo} alt="logo"/>
+                            <img src={Logo} alt="logo" />
                         </a>
                     </div>
 
                     <div className="header__search">
                         <div className="input-group">
-                            <input type="text" className="form-control" placeholder="Find..."/>
+                            <input type="text" className="form-control" placeholder="Find..." />
                             <button className="btn btn-primary" type="button">
                                 <i className="fas fa-search"></i>
                             </button>
@@ -33,9 +33,9 @@ export default function Header() {
                     <div className="header__user">
                         <div className="d-flex">
                             <div className="pr-2">
-                                <img src={User} alt="user"/>
+                                <img src={User} alt="user" />
                             </div>
-                            <div className="position-relative">
+                            <div className="position-relative pr-2">
                                 <span className="badge rounded-pill bg-primary">
                                     43
                                 </span>
@@ -51,7 +51,7 @@ export default function Header() {
                 <div className="header__responsive">
                     <div className="search-responsive">
                         <div className="input-group">
-                            <input type="text" className="form-control" placeholder="Find..."/>
+                            <input type="text" className="form-control" placeholder="Find..." />
                             <button className="btn btn-primary" type="button">
                                 <i className="fas fa-search"></i>
                             </button>
